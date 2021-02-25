@@ -58,4 +58,5 @@ g.nodes[11].value = 8
 g.nodes[12].value = 0
 g.nodes[13].value = 7
 alphaBetaSearch(g.nodes[0])
+
 print(g.nodes[0].value)
