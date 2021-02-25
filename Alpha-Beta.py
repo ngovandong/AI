@@ -49,6 +49,7 @@ g.add_edges_from(
          ('I', 'N')]
     )
 
+
 g.nodes[3].value = 3
 g.nodes[4].value = 5
 g.nodes[7].value = 4
