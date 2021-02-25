@@ -158,3 +158,4 @@ class Graph:
     def set_compare_mode(self, mode):
         for node in self.nodes:
             node.set_compare_mode(mode)
+
