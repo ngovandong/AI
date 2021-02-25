@@ -42,6 +42,7 @@ def display(collection):
         l.append(ele.name)
     print(l)
 
+    
 def BFS(initialState,goalTest):
     frontier=[]
     explored=[]
@@ -89,4 +90,7 @@ def BFS(initialState,goalTest):
 BFS('A','O')
 
      """
+<<<<<<< HEAD
      
+=======
+>>>>>>> 337e5b403f74976f2260c997f8fd016c540c11a1
