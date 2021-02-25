@@ -44,6 +44,7 @@ def path(state):
     else:
         return
          
+         
 def display(collection):
     l=[]
     newlist=collection.queue[:]
