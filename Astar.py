@@ -166,3 +166,6 @@ if __name__ == "__main__":
     graph.set_compare_mode(Node.A_STAR)
     result = a_star_search(graph=graph, initial_state=graph.nodes[0], goalTest=graph.nodes[11])
     print(result) """
+
+    
+    

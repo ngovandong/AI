@@ -49,6 +49,7 @@ g.add_edges_from(
          ('I', 'N')]
     )
 
+
 g.nodes[3].value = 3
 g.nodes[4].value = 5
 g.nodes[7].value = 4
@@ -58,4 +59,5 @@ g.nodes[11].value = 8
 g.nodes[12].value = 0
 g.nodes[13].value = 7
 alphaBetaSearch(g.nodes[0])
+
 print(g.nodes[0].value)
