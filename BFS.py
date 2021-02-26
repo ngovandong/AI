@@ -33,6 +33,7 @@ def path(state):
     print(state.name)
     if state.par!=None:
         path(state.par)
+        
     else:
         return
          
