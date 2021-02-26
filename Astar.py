@@ -167,3 +167,4 @@ if __name__ == "__main__":
     result = a_star_search(graph=graph, initial_state=graph.nodes[0], goalTest=graph.nodes[11])
     print(result) """
 
+
