@@ -90,5 +90,4 @@ def BFS(initialState,goalTest):
 BFS('A','O')
 
      """
-     
-#comment
+#2
