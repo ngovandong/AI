@@ -33,6 +33,7 @@ def path(state):
     print(state.name)
     if state.par!=None:
         path(state.par)
+        
     else:
         return
          
@@ -90,4 +91,4 @@ def BFS(initialState,goalTest):
 BFS('A','O')
 
      """
-#2
+
